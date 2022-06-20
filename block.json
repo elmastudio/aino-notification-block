@@ -1,0 +1,71 @@
+{
+	"apiVersion": 2,
+	"name": "ainoblocks/notification-block",
+	"version": "1.0.0",
+	"title": "Aino Notification Block",
+	"category": "design",
+	"description": "Create alert, error, info, help, welcome, success and warning notification banners and fullscreen info bars with Aino's Notification Block.",
+	"keywords": [ "notification", "notice", "alert", "banner", "message", "aino"],
+	"attributes": {
+		"status": {
+			"type": "string",
+			"default": "status-welcome"
+		},
+		"border": {
+			"type": "string",
+			"default": "border-all"
+		},
+		"borderWidth": {
+			"type": "number",
+			"default": "1"
+		},
+		"borderRadius": {
+			"type": "string"
+		},
+		"icon": {
+			"type": "boolean",
+			"default": false
+		},
+		"iconStyle": {
+			"type": "string",
+			"default": "icon-fill"
+		},
+		"close": {
+			"type": "boolean",
+			"default": false
+		},
+		"backgroundColor": {
+			"type": "string"
+		},
+		"textColor": {
+			"type": "string"
+		},
+		"borderColor": {
+			"type": "string"
+		},
+		"paddingTop": {
+			"type": "number",
+			"default": "5"
+		},
+		"paddingBottom": {
+			"type": "number",
+			"default": "5"
+		},
+		"paddingLeft": {
+			"type": "number",
+			"default": "5"
+		},
+		"paddingRight": {
+			"type": "number",
+			"default": "5"
+		}
+	},
+	"supports": {
+		"align": [ "wide", "full" ],
+		"anchor": true
+	},
+	"textdomain": "ainoblocks",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

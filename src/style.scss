@@ -1,0 +1,916 @@
+/* style.css */
+@mixin s-r-1($property) {
+	#{$property}: 0;
+}
+
+@mixin s-r-2($property) {
+	#{$property}: 0.25rem;
+}
+
+@mixin s-r-3($property) {
+	#{$property}: 0.5rem;
+}
+
+@mixin s-r-4($property) {
+	#{$property}: 0.75rem;
+}
+
+@mixin s-r-5($property) {
+	#{$property}: 1rem;
+}
+
+@mixin s-r-6($property) {
+	#{$property}: 1rem;
+
+	@media (min-width: 80em) {
+		#{$property}: 1.25rem;
+	}
+}
+
+@mixin s-r-7($property) {
+	#{$property}: 1rem;
+
+	@media (min-width: 64em) {
+		#{$property}: 1.25rem;
+	}
+
+	@media (min-width: 80em) {
+		#{$property}: 1.5rem;
+	}
+}
+
+@mixin s-r-8($property) {
+	#{$property}: 1rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 1.25rem;
+	}
+
+	@media (min-width: 64em) {
+		#{$property}: 1.5rem;
+	}
+
+	@media (min-width: 80em) {
+		#{$property}: 2rem;
+	}
+}
+
+@mixin s-r-9($property) {
+	#{$property}: 1.25rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 1.5rem;
+	}
+
+	@media (min-width: 64em) {
+		#{$property}: 2rem;
+	}
+
+	@media (min-width: 80em) {
+		#{$property}: 2.5rem;
+	}
+}
+
+@mixin s-r-10($property) {
+	#{$property}: 1.5rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 2rem;
+	}
+
+	@media (min-width: 64em) {
+		#{$property}: 2.5rem;
+	}
+
+	@media (min-width: 80em) {
+		#{$property}: 3rem;
+	}
+}
+
+@mixin s-r-11($property) {
+	#{$property}: 2rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 2.5rem;
+	}
+
+	@media (min-width: 64em) {
+		#{$property}: 3rem;
+	}
+
+	@media (min-width: 80em) {
+		#{$property}: 4rem;
+	}
+}
+
+@mixin s-r-12($property) {
+	#{$property}: 2.5rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 3rem;
+	}
+
+	@media (min-width: 64em) {
+		#{$property}: 4rem;
+	}
+
+	@media (min-width: 80em) {
+		#{$property}: 5rem;
+	}
+}
+
+@mixin s-r-13($property) {
+	#{$property}: 3rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 4rem;
+	}
+
+	@media (min-width: 64em) {
+		#{$property}: 5rem;
+	}
+
+	@media (min-width: 80em) {
+		#{$property}: 6rem;
+	}
+}
+
+@mixin s-r-14($property) {
+	#{$property}: 4rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 5rem;
+	}
+
+	@media (min-width: 64em) {
+		#{$property}: 6rem;
+	}
+
+	@media (min-width: 80em) {
+		#{$property}: 7.5rem;
+	}
+}
+
+@mixin s-r-15($property) {
+	#{$property}: 5rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 6rem;
+	}
+
+	@media (min-width: 64em) {
+		#{$property}: 7.5rem;
+	}
+
+	@media (min-width: 80em) {
+		#{$property}: 9rem;
+	}
+}
+
+@mixin s-r-16($property) {
+	#{$property}: 6rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 7.5rem;
+	}
+
+	@media (min-width: 64em) {
+		#{$property}: 9rem;
+	}
+
+	@media (min-width: 80em) {
+		#{$property}: 11rem;
+	}
+}
+
+@mixin s-r-17($property) {
+	#{$property}: 7.5rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 9rem;
+	}
+
+	@media (min-width: 64em) {
+		#{$property}: 11rem;
+	}
+
+	@media (min-width: 80em) {
+		#{$property}: 13rem;
+	}
+}
+
+@mixin s-r-18($property) {
+	#{$property}: 9rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 11rem;
+	}
+
+	@media (min-width: 64em) {
+		#{$property}: 13rem;
+	}
+
+	@media (min-width: 80em) {
+		#{$property}: 15.5rem;
+	}
+}
+
+@mixin s-r-19($property) {
+	#{$property}: 11rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 13rem;
+	}
+
+	@media (min-width: 64em) {
+		#{$property}: 15.5rem;
+	}
+
+	@media (min-width: 80em) {
+		#{$property}: 18rem;
+	}
+}
+
+@mixin br-xxs($property) {
+	#{$property}: 0.625rem;
+}
+
+@mixin br-xs($property) {
+	#{$property}: 0.938rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 1.25rem;
+	}
+}
+
+@mixin br-s($property) {
+	#{$property}: 1.25rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 1.875rem;
+	}
+}
+
+@mixin br-m($property) {
+	#{$property}: 1.563rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 2.5rem;
+	}
+}
+
+@mixin br-l($property) {
+	#{$property}: 1.875rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 3.125rem;
+	}
+}
+
+@mixin br-xl($property) {
+	#{$property}: 2.5rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 3.75rem;
+	}
+}
+
+@mixin br-xxl($property) {
+	#{$property}: 3.125rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 4.375rem;
+	}
+}
+
+@mixin br-xxxl($property) {
+	#{$property}: 3.75rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 5rem;
+	}
+}
+
+@mixin br-xxxxl($property) {
+	#{$property}: 4.375rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 5.625rem;
+	}
+}
+
+.wp-block-ainoblocks-notification-block {
+	border: 1px solid;
+
+	&.status-welcome {
+		background-color: #D6B8FF;
+		color: #340079;
+		border-color: #A15CF9;
+
+		.icon {
+			border-color: #340079;
+			background-color: #340079;
+			fill: #D6B8FF;
+		}
+
+		.close-btn {
+			fill: #340079;
+		}
+
+		&.icon-outline {
+			.icon {
+				fill: #340079;
+				background: transparent;
+			}
+		}
+	}
+
+	&.status-help {
+		background-color: #F4F4F4;
+		color: #282828;
+		border-color: #bbbbbb;
+
+		.icon {
+			border-color: #282828;
+			background-color: #282828;
+			fill: #F4F4F4;
+		}
+
+		.close-btn {
+			fill: #282828;
+		}
+
+		&.icon-outline {
+			.icon {
+				fill: #282828;
+				background: transparent;
+			}
+		}
+	}
+
+	&.status-info {
+		background-color: #B8D7FF;
+		color: #003679;
+		border-color: #5CA5FF;
+
+		.icon {
+			border-color: #003679;
+			background-color: #003679;
+			fill: #B8D7FF;
+		}
+
+		.close-btn {
+			fill: #003679;
+		}
+
+		&.icon-outline {
+			.icon {
+				fill: #003679;
+				background: transparent;
+			}
+		}
+	}
+
+	&.status-warning {
+		background-color: #FFE8B8;
+		color: #795200;
+		border-color: #FFC75E;
+
+		.icon {
+			border-color: #795200;
+			background-color: #795200;
+			fill: #FFE8B8;
+		}
+
+		.close-btn {
+			fill: #795200;
+		}
+
+		&.icon-outline {
+			.icon {
+				fill: #795200;
+				background: transparent;
+			}
+		}
+	}
+
+	&.status-error {
+		background-color: #FFB8B8;
+		color: #790000;
+		border-color: #FF5C60;
+
+		.icon {
+			border-color: #790000;
+			background-color: #790000;
+			fill: #FFB8B8;
+		}
+
+		.close-btn {
+			fill: #790000;
+		}
+
+		&.icon-outline {
+			.icon {
+				fill: #790000;
+				background: transparent;
+			}
+		}
+	}
+
+	&.status-success {
+		background-color: #B8F3C6;
+		color: #006319;
+		border-color: #63D383;
+
+		.icon {
+			border-color: #006319;
+			background-color: #006319;
+			fill: #B8F3C6;
+		}
+
+		.close-btn {
+			fill: #006319;
+		}
+
+		&.icon-outline {
+			.icon {
+				fill: #006319;
+				background: transparent;
+			}
+		}
+	}
+
+	&.no-border {
+		border: none;
+	}
+
+	&.border-top {
+		border-left: none;
+		border-bottom: none;
+		border-right: none;
+	}
+
+	&.border-right {
+		border-left: none;
+		border-bottom: none;
+		border-top: none;
+	}
+
+	&.border-bottom {
+		border-left: none;
+		border-right: none;
+		border-top: none;
+	}
+
+	&.border-left {
+		border-bottom: none;
+		border-right: none;
+		border-top: none;
+	}
+
+	.content-wrapper {
+		display: flex;
+		align-items: center;
+		position: relative;
+		padding-right: 1.5rem;
+
+		.close-btn {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: absolute;
+			top: 0;
+			right: 0;
+			min-width: 22px;
+			min-height: 22px;
+			width: 22px;
+			height: 22px;
+			padding: 0;
+			border: none;
+			border-radius: 6.25rem;
+			background: rgba(0, 0, 0, 0);
+
+			&:hover {
+				background: rgba(0, 0, 0, 0.1);
+			}
+
+			&:active,
+			&:focus {
+				background: rgba(0, 0, 0, 0.2);
+			}
+
+			svg {
+				width: 12px;
+				height: 12px;
+			}
+		}
+	}
+
+	&.close {
+		display: none;
+	}
+
+	&.hide-close {
+		.content-wrapper {
+			padding-right: 0;
+		}
+	}
+
+	.icon {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-width: 2rem;
+		min-height: 2rem;
+		width: 2rem;
+		height: 2rem;
+		border-radius: 6.25rem;
+
+		svg {
+			width: 1.5rem;
+			height: 1.5rem;
+		}
+	}
+
+	&.hide-icon {
+		.icon {
+			display: none;
+		}
+
+		.content-wrapper {
+			p {
+				padding-left: 0 !important;
+			}
+		}
+	}
+
+	&.icon-outline {
+		.icon {
+			border: 1px solid;
+			background-color: transparent;
+		}
+	}
+
+	&.alignfull {
+
+		.content-wrapper {
+			justify-content: center;
+		}
+	}
+}
+
+.wp-block-ainoblocks-notification-block {
+
+	&.pt {
+
+		&__1 {
+			@include s-r-1(padding-top);
+		}
+
+		&__2 {
+			@include s-r-2(padding-top);
+		}
+
+		&__3 {
+			@include s-r-3(padding-top);
+		}
+
+		&__4 {
+			@include s-r-4(padding-top);
+		}
+
+		&__5 {
+			@include s-r-5(padding-top);
+		}
+
+		&__6 {
+			@include s-r-6(padding-top);
+		}
+
+		&__7 {
+			@include s-r-7(padding-top);
+		}
+
+		&__8 {
+			@include s-r-8(padding-top);
+		}
+
+		&__9 {
+			@include s-r-9(padding-top);
+		}
+
+		&__10 {
+			@include s-r-10(padding-top);
+		}
+
+		&__11 {
+			@include s-r-11(padding-top);
+		}
+
+		&__12 {
+			@include s-r-12(padding-top);
+		}
+
+		&__13 {
+			@include s-r-13(padding-top);
+		}
+
+		&__14 {
+			@include s-r-14(padding-top);
+		}
+
+		&__15 {
+			@include s-r-15(padding-top);
+		}
+
+		&__16 {
+			@include s-r-16(padding-top);
+		}
+
+		&__17 {
+			@include s-r-17(padding-top);
+		}
+
+		&__18 {
+			@include s-r-18(padding-top);
+		}
+
+		&__19 {
+			@include s-r-19(padding-top);
+		}
+	}
+
+	&.pb {
+
+		&__1 {
+			@include s-r-1(padding-bottom);
+		}
+
+		&__2 {
+			@include s-r-2(padding-bottom);
+		}
+
+		&__3 {
+			@include s-r-3(padding-bottom);
+		}
+
+		&__4 {
+			@include s-r-4(padding-bottom);
+		}
+
+		&__5 {
+			@include s-r-5(padding-bottom);
+		}
+
+		&__6 {
+			@include s-r-6(padding-bottom);
+		}
+
+		&__7 {
+			@include s-r-7(padding-bottom);
+		}
+
+		&__8 {
+			@include s-r-8(padding-bottom);
+		}
+
+		&__9 {
+			@include s-r-9(padding-bottom);
+		}
+
+		&__10 {
+			@include s-r-10(padding-bottom);
+		}
+
+		&__11 {
+			@include s-r-11(padding-bottom);
+		}
+
+		&__12 {
+			@include s-r-12(padding-bottom);
+		}
+
+		&__13 {
+			@include s-r-13(padding-bottom);
+		}
+
+		&__14 {
+			@include s-r-14(padding-bottom);
+		}
+
+		&__15 {
+			@include s-r-15(padding-bottom);
+		}
+
+		&__16 {
+			@include s-r-16(padding-bottom);
+		}
+
+		&__17 {
+			@include s-r-17(padding-bottom);
+		}
+
+		&__18 {
+			@include s-r-18(padding-bottom);
+		}
+
+		&__19 {
+			@include s-r-19(padding-bottom);
+		}
+	}
+
+	&.pl {
+		&__1 {
+			@include s-r-1(padding-left);
+		}
+
+		&__2 {
+			@include s-r-2(padding-left);
+		}
+
+		&__3 {
+			@include s-r-3(padding-left);
+		}
+
+		&__4 {
+			@include s-r-4(padding-left);
+		}
+
+		&__5 {
+			@include s-r-5(padding-left);
+		}
+
+		&__6 {
+			@include s-r-6(padding-left);
+		}
+
+		&__7 {
+			@include s-r-7(padding-left);
+		}
+
+		&__8 {
+			@include s-r-8(padding-left);
+		}
+
+		&__9 {
+			@include s-r-9(padding-left);
+		}
+
+		&__10 {
+			@include s-r-10(padding-left);
+		}
+
+		&__11 {
+			@include s-r-11(padding-left);
+		}
+
+		&__12 {
+			@include s-r-12(padding-left);
+		}
+
+		&__13 {
+			@include s-r-13(padding-left);
+		}
+
+		&__14 {
+			@include s-r-14(padding-left);
+		}
+
+		&__15 {
+			@include s-r-15(padding-left);
+		}
+
+		&__16 {
+			@include s-r-16(padding-left);
+		}
+
+		&__17 {
+			@include s-r-17(padding-left);
+		}
+
+		&__18 {
+			@include s-r-18(padding-left);
+		}
+
+		&__19 {
+			@include s-r-19(padding-left);
+		}
+	}
+
+	&.pr {
+		&__1 {
+			@include s-r-1(padding-right);
+		}
+
+		&__2 {
+			@include s-r-2(padding-right);
+		}
+
+		&__3 {
+			@include s-r-3(padding-right);
+		}
+
+		&__4 {
+			@include s-r-4(padding-right);
+		}
+
+		&__5 {
+			@include s-r-5(padding-right);
+		}
+
+		&__6 {
+			@include s-r-6(padding-right);
+		}
+
+		&__7 {
+			@include s-r-7(padding-right);
+		}
+
+		&__8 {
+			@include s-r-8(padding-right);
+		}
+
+		&__9 {
+			@include s-r-9(padding-right);
+		}
+
+		&__10 {
+			@include s-r-10(padding-right);
+		}
+
+		&__11 {
+			@include s-r-11(padding-right);
+		}
+
+		&__12 {
+			@include s-r-12(padding-right);
+		}
+
+		&__13 {
+			@include s-r-13(padding-right);
+		}
+
+		&__14 {
+			@include s-r-14(padding-right);
+		}
+
+		&__15 {
+			@include s-r-15(padding-right);
+		}
+
+		&__16 {
+			@include s-r-16(padding-right);
+		}
+
+		&__17 {
+			@include s-r-17(padding-right);
+		}
+
+		&__18 {
+			@include s-r-18(padding-right);
+		}
+
+		&__19 {
+			@include s-r-19(padding-right);
+		}
+	}
+
+	&.br {
+			
+		&__xxs {
+			@include br-xxs(border-radius);
+		}
+		
+		&__xs {
+			@include br-xs(border-radius);
+		}
+		
+		&__s {
+			@include br-s(border-radius);
+		}
+		
+		&__m {
+			@include br-m(border-radius);
+		}
+		
+		&__l {
+			@include br-l(border-radius);
+		}
+		
+		&__xl {
+			@include br-xl(border-radius);
+		}
+		
+		&__xxl {
+			@include br-xxl(border-radius);
+		}
+		
+		&__xxxl {
+			@include br-xxxl(border-radius);
+		}
+		
+		&__xxxxl {
+			@include br-xxxxl(border-radius);
+		}
+	}
+}
